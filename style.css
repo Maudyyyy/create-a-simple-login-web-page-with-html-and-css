@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+  background-color: black;
+  font-family: 'Silkscreen', cursive;
+}
+h2{
+  font-family: 'Silkscreen', cursive;
+  text-align-last: center;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: absolute;
+  width: 345px;
+  height: 345px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #B0E0E6;
+  box-shadow: 0px 1px 5px #B0E0E6;
+  border-radius: 10px;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #151515;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #151515;
+    font-size: 18px;
+    color: #fafafa;
+    font-family: 'Silkscreen', cursive;
+    
+}
+.container form label{
+  width: 30%;
+  padding: none;
+  border: none;
+  left: 50px;
+  top: 50px;
+  color: black;
+  background-color: #B0E0E6;
+  margin: auto;
+  cursor: pointer;
+  font-family: 'Silkscreen', cursive;
+}
+
+a{
+  color: white;
+}
+
